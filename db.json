@@ -1,16 +1,28 @@
 {
-  "posts":[
+  "transactions": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "id": 1,
+      "description": "Work Income Redux",
+      "value": 3000,
+      "isExpense": false
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 2,
+      "description": "Water Bill Redux",
+      "value": 200,
+      "isExpense": true
+    },
+    {
+      "id": 3,
+      "description": "Rent",
+      "value": 400,
+      "isExpense": true
+    },
+    {
+      "id": 4,
+      "description": "Food",
+      "value": 250,
+      "isExpense": true
     }
   ]
 }
